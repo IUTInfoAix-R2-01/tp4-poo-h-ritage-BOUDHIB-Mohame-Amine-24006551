@@ -1,0 +1,18 @@
+Ex. 5 : Il s'agit de fournir une nouvelle implémentation d'une méthode hérité d'une 
+classe de base (ou classe mère), dans une classe fille. Ici la classe mère est Velo est la classe dérivée (ou fille)
+est VeloElec.
+
+Ex. 6 :  Les méthodes qui ont été redéfinies dans VeloElec sont toString() est getPuissance().
+
+Ex. 7 : L'annotation @Override permet au compilateur de savoir qu'on 
+redéfinie une méthode dans une classe dérivée (a partir d'une classe mére)
+
+Ex. 8 : Lorsque cette annotation est présente, elle indique au compilateur de vérifier qu'une 
+méthode est présente dans sa classe mére. Dans ce cas, on peut s'en dispenser, le programme marche sans cette
+annotation.
+
+
+Ex. 9 : Fait
+
+Ex. 10 : Cette méthode (super.getPuissance(frequenceCoupsDePedale) dans VeloElec.getPuissance()
+permet d'appeler la méthode getPuissance() présente dans la classe mére Velo.
